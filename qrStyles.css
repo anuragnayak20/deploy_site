@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+body{
+    margin:0px;
+    min-height:100%;
+    background-color:#C6E7FF;
+
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+main{
+    margin:auto; /*center the main tag in body*/
+    background-color: white;
+    border-radius:1rem;
+    height: 55vh;
+    width:20vw;
+    
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    font-family: arial;
+}
+p{
+    text-align: center;
+}
+article{
+    width:100%;
+}
+
+#QRimage{
+    margin-top: 5%;
+    height:55%;
+    width:90%;
+    
+}
+#QRimage > img{
+    height:100%;
+    width:100%;
+    border-radius: 1rem;
+}
+#boldText{
+    color:#31363F;
+    font-size:110%;
+}
+#description{
+    color:grey;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    font-size: 75%;
+}
+
